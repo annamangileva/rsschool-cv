@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  background-color: rgb(252, 245, 245);
+}
+.all {
+  width: 1200px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+main {
+  display: flex;
+}
+h1,
+p {
+  margin-top: 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+h4,
+.projects_figure,
+aside figure {
+  margin: 0;
+}
+.right_side {
+  width: 70%;
+  margin: 0 15px;
+}
+aside {
+  width: 30%;
+  margin-left: 10px;
+}
+.projects_img {
+  width: 100%;
+}
+.foto {
+  width: 100%;
+}
+.header_CV,
+.header_nav,
+.logo_git,
+.year,
+.logo_rs {
+  display: inline-block;
+}
+header,
+footer {
+  text-align: center;
+  background-color: rgb(252, 245, 245);
+  font-size: 18px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 15px 10px 15px;
+}
+
+.logo_git {
+  text-align: left;
+}
+a {
+  color: #000 !important;
+  text-decoration: none;
+  margin-right: 15px;
+}
+h2 {
+  margin-right: 20px;
+}
+ul {
+  margin-top: 0;
+  padding: 5px 15px;
+}
+li::marker {
+  font-size: 12px;
+}
+.up {
+  position: sticky;
+  display: inline-block;
+  bottom: 10px;
+  float: right;
+  right: 10px;
+  color: #000 !important;
+  text-decoration: none;
+}
